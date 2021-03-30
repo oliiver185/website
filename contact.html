@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Contact</title>
+    <link rel="stylesheet" href="css/myStyle.css">
+</head>
+
+<body>
+
+    <ul id="menu">
+        <a href="index.html">
+            <li> Home</li>
+        </a>
+        <a href="about.html">
+            <li> About </li>
+        </a>
+        <a href="products.html">
+            <li> Products</li>
+        </a>
+        <a href="contact.html">
+            <li> Contact</li>
+        </a>
+    </ul>
+
+    <div class="container">
+        <!--    <h1> largest header and <h6> is the smallest header -->
+        <h1 style="color:#ab4c1a; text-align: center;">Contact</h1>
+
+        <div id="formdiv">
+
+            <form action="mailto:oliiver185@gmail.com" method="POST" enctype="text/plain" class="myForm">
+                <label for="">Name</label>
+                <input type="text" name="name" required>
+                <br>
+                <label for="">Gender</label> Male
+                <input type="radio" name="gender" value="Male"> Male
+                <input type="radio" name="gender" value="Female"> Male
+                <input type="radio" name="gender" value="Other">
+                <br>
+                <label for="">Phone</label>
+                <input type="tel" name="phone" required>
+                <br>
+                <label for="">Email</label>
+                <input type="email" name="email">
+                <br>
+                <label for="">Message</label>
+                <textarea name="message" id="" cols="30" rows="10"></textarea>
+                <br>
+
+
+                <input type="submit" value="Submit" class="btn1">
+            </form>
+        </div>
+
+
+
+        <div id="addressDiv">
+            <address>
+        JustIT Training and Apprenticeship <br>
+        2nd floor, St Clares <br>
+        London, EC3N 1DD <br>
+        Phone: <a href="tel:028830988390">028830988390</a> <br>  <!-- esto me va a abrir una ventana con el numero-->
+        email: <a href="mailto:oliiver185@gmail.com">Click to email</a>
+    </address>
+        </div>
+
+        <div class="clear"></div>
+    </div>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2483.0470310937403!2d-0.07525464999999334!3d51.51235315000002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4876034b9c0c3d4d%3A0x4a8a2e2a872317ef!2sMinories%2C%20Tower%2C%20London%20EC3N%201DD!5e0!3m2!1sen!2suk!4v1617110452641!5m2!1sen!2suk"
+        width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    <footer>
+        <p style="text-align: center;"> &copy; Premium WEbsite Design 2011</p>
+    </footer>
+
+
+
+</body>
+
+</html>

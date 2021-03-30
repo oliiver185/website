@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=New+Tegomin&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap');
+body {
+    margin: 0px;
+    font-family: 'Roboto Slab', 'New Tegomin', sans-serif, fantasy, cursive;
+}
+
+h1 {
+    border: 5px solid blue;
+    border-bottom: 5px solid red;
+    border-right: 5px solid red;
+    padding: 20px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    color: cornflowerblue;
+}
+
+
+/*        creating a class in CSS*/
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+footer {
+    background-color: darkseagreen;
+    /*            top right bottom and left */
+    padding: 10px;
+}
+
+
+/*        creating an Id in CSS*/
+
+#menu {
+    list-style-type: none;
+    text-align: right;
+    margin: 0px;
+    padding: 20px;
+    overflow: hidden;
+    background-color: darkseagreen;
+}
+
+#menu li {
+    display: inline;
+    padding: 20px;
+}
+
+#menu a {
+    text-decoration: none;
+}
+
+#menu li:hover {
+    color: aliceblue;
+    background-color: brown;
+}
+
+#menu li:active {
+    color: red;
+    background-color: aqua;
+}
+
+table {
+    border-color: black;
+    width: 100%;
+    text-align: center;
+}
+
+th {
+    background-color: brown;
+    color: blue;
+}
+
+td {
+    background-color: grey;
+    color: aqua;
+}
+
+#formdiv {
+    width: 70%;
+    float: left;
+    border: 2px solid blue;
+    padding: 5px;
+    margin-bottom: 30px;
+}
+
+#addressDiv {
+    width: 25%;
+    float: left;
+    margin: 5px;
+    border: 2px solid blue;
+    padding: 5px;
+}
+
+.clear {
+    clear: both;
+}
+
+.myForm {
+    padding: 20px;
+}
+
+.myForm label {
+    display: block;
+}
+
+.myForm input[type="text"],
+input[type="tel"],
+input[type="email"] {
+    width: 90%;
+    padding: 5px;
+}
+
+.btn1 {
+    background-color: blue;
+    color: white;
+    padding: 10px;
+    font-weight: bold;
+}
